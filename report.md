@@ -1,7 +1,7 @@
 ## Appendix C: SUT Use Cases
 ![](media/sut-usecases.jpeg)
 
-| **Test Case \#** | **Use Case**        | **Function Being Tested**                                        | **Initial System State**                                    | **Input**                                             | **Expected Output**                                                                      | ** Result
+| **Test Case \#** | **Use Case**        | **Function Being Tested**                                        | **Initial System State**                                    | **Input**                                             | **Expected Output**                                                                      | **Result**
 | ---------------- | ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | 1                | **System Startup**  | System is started when the switch is turned "on"                 | System is off                                               | Activate the "on" switch                              | System requests initial cash amount                                                      |
 | 2                | **System Startup**  | System accepts initial cash amount                               | System is requesting cash amount                            | Enter a legitimate amount                             | System is on                                                                             |
