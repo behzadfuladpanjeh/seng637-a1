@@ -462,7 +462,13 @@ Testing will be performed on a desktop computer running the ATM simulation softw
 
 ### Exploratory vs Scripted Testing
 
-*(Content to be added based on analysis)*
+For this lab, we had to utilize both exploratory and manual functional testing. Exploratory testing is where a user randomly explores the functionality of the program, whereas manual functional testing requires a systematic approach. The systematic approach requires the tester to think of all the different functionalities of buttons and input fields to see if it behaves as intended.  
+
+For exploratory testing, we found that it was very effective in discovering edge case logic and spelling mistakes in the UI, which was not a requirement in manual functional testing. The manual functional testing would ask if the message would show but not specify if the message was correctly written. For example, BR-2 had a typo "Wood you like", and another example would be testing multiple transactions, from transaction one to two; it would skip the two and output three. The positive of exploratory testing is that the tester is not confiding a list of potential issues; it is up to the tester to explore bugs that were not thought of in manual functional testing. The downside of exploratory testing is that it does not guarantee that the tester will cover the full requirements of testing.  
+
+In the manual functional test, there was a scripted test that was provided in appendix C of the assignment. The scripted test was made to ensure all the core business requirements, so that each iteration of the program can be tested in the same manner to check if fixing one issue did not break up another part of the program. This process is highly effective for repeatability and to compare two different versions; however, this process is very time consuming, especially when a program is bigger than the program we tested. 
+
+In conclusion, we learned that both types of testing are required because they complement each other's weaknesses. 
 
 ---
 
