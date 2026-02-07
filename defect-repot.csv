@@ -1,0 +1,401 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field (Development),Custom field (Issue color),Custom field (Rank),Custom field (Start date),Custom field (Team),Custom field (Vulnerability),Status Category,Status Category Changed
+Defect Reporting,CCS-24,10097,Epic,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,06/Feb/26 10:24 PM,06/Feb/26 10:24 PM,,,,0,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,,,,,,,,,,,,purple,0|i0005z:,,,,To Do,06/Feb/26 10:24 PM
+Test Execution,CCS-23,10096,Epic,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,06/Feb/26 10:24 PM,06/Feb/26 10:24 PM,,,,0,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,,,,,,,,,,,,purple,0|i0005r:,,,,To Do,06/Feb/26 10:24 PM
+Test Case Design,CCS-22,10095,Epic,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,06/Feb/26 10:24 PM,06/Feb/26 10:24 PM,,,,0,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,,,,,,,,,,,,purple,0|i0005j:,,,,To Do,06/Feb/26 10:24 PM
+Test Planning],CCS-21,10094,Epic,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,06/Feb/26 10:24 PM,06/Feb/26 10:24 PM,,,,0,,,matin.ashoori,712020:2e4d977d-67d5-49ff-9860-d0faf4342033,,,,,,,,,,,,purple,0|i0005b:,,,,To Do,06/Feb/26 10:24 PM
+[BR-12] Depositing balance discrepancy,CCS-20,10093,Bug,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,06/Feb/26 9:47 PM,06/Feb/26 9:48 PM,,,,0,"*Bug Report BR-12:*
+*Title:*
+Depositing balance discrepancy
+
+*Function Being Tested:*
+
+
+*Initial State of the System:*
+
+
+*Steps to Reproduce:*
+
+*Expected Outcome:*
+
+
+*Actual Outcome:*
+Regression bug; balance off by $0.10
+
+*Severity / Priority:*
+
+High
+
+*Version of SUT:*
+V 1.1",,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,,,,,,,,,,,,,0|i00053:,,,,To Do,06/Feb/26 9:47 PM
+[BR-11] Incorrect transaction number,CCS-19,10092,Bug,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,06/Feb/26 9:47 PM,06/Feb/26 9:47 PM,,,,0,"*Bug Report BR-10:*
+*Title:*
+Incorrect transaction number
+
+*Function Being Tested:*
+
+
+*Initial State of the System:*
+
+
+*Steps to Reproduce:*
+
+*Expected Outcome:*
+
+
+*Actual Outcome:*
+
+
+*Severity / Priority:*
+
+High
+
+*Version of SUT:*
+V 1.1",,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,,,,,,,,,,,,,0|i0004v:,,,,To Do,06/Feb/26 9:47 PM
+[BR-10] Cannot withdraw from savings account,CCS-18,10091,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:14 PM,06/Feb/26 10:17 PM,06/Feb/26 8:27 PM,,,0,"*Bug Report BR-10:*
+*Title:*
+Cannot withdraw from savings account
+
+*Function Being Tested:*
+Transaction withdraw
+
+*Initial State of the System:*
+User authenticated at the transaction menu with sufficient funds.
+
+*Steps to Reproduce:*
+
+# Select Withdraw.
+# Select Savings.
+# Select $20.
+
+*Expected Outcome:*
+ATM should withdraw $20 and provide a receipt.
+
+*Actual Outcome:*
+Transaction is cancelled and an invalid account type message is shown.
+
+*Severity / Priority:*
+Medium
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:28 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;no_witdrawl.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10011,,,,0|i0004n:,,,,In Progress,06/Feb/26 10:17 PM
+[BR-9] ATM won't withdraw with cash that is available in account,CCS-17,10090,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:13 PM,06/Feb/26 10:17 PM,06/Feb/26 8:26 PM,,,0,"*Bug Report BR-9:*
+*Title:*
+ATM won’t withdraw with cash available
+
+*Function Being Tested:*
+Withdraw
+
+*Initial State of the System:*
+ATM has an authenticated card at the transaction menu. Balance inquiry shows total balance $50.50 and available balance $20.50.
+
+*Steps to Reproduce:*
+
+# Select Withdraw.
+# Select Chequing.
+# Select $20.
+
+*Expected Outcome:*
+ATM should withdraw $20 and provide a receipt.
+
+*Actual Outcome:*
+ATM shows insufficient funds message and does not withdraw.
+
+*Severity / Priority:*
+High
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:27 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;no_witdrawl.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10010,,,,0|i0004f:,,,,In Progress,06/Feb/26 10:17 PM
+[BR-8] System does not give 3 PIN attempts on other card,CCS-16,10089,Bug,Done,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,Done,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:12 PM,06/Feb/26 10:16 PM,06/Feb/26 8:25 PM,06/Feb/26 10:16 PM,,0,"*Bug Report BR-8:*
+*Title:*
+System does not give 3 PIN attempts on other card
+
+*Function Being Tested:*
+Invalid PIN entry for new card
+
+*Initial State of the System:*
+Other card is inserted into ATM.
+
+*Steps to Reproduce:*
+
+# Insert card.
+# Type card number 4.
+# Enter incorrect PIN.
+
+*Expected Outcome:*
+ATM should show incorrect PIN message and allow retries.
+
+*Actual Outcome:*
+ATM ejects card after one attempt.
+
+*Severity / Priority:*
+Low
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:26 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;invalid_card.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10009,,,,0|i00047:,,,,Done,06/Feb/26 10:16 PM
+[BR-7] Money Market balance inquiry returns money from ATM,CCS-15,10088,Bug,Done,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,Done,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:10 PM,06/Feb/26 9:42 PM,06/Feb/26 8:25 PM,06/Feb/26 9:42 PM,,0,"*Bug Report BR-7:*
+*Title:*
+Money Market balance inquiry returns money from ATM
+
+*Function Being Tested:*
+Balance inquiry
+
+*Initial State of the System:*
+User authenticated and requests a balance inquiry.
+
+*Steps to Reproduce:*
+
+# Select balance inquiry.
+# Select the Money Market account.
+
+*Expected Outcome:*
+ATM should not dispense cash and should display Money Market balance.
+
+*Actual Outcome:*
+ATM dispenses $500 cash.
+
+*Severity / Priority:*
+High
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:25 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;balance_inquiry.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10008,,,,0|i0003z:,,,,Done,06/Feb/26 9:42 PM
+"[BR-6] Incorrect ""to"" and ""from"" transfer accounts",CCS-14,10087,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:09 PM,06/Feb/26 10:16 PM,06/Feb/26 8:24 PM,,,0,"*Bug Report BR-6:*
+*Title:*
+Incorrect to and from transfer accounts
+
+*Function Being Tested:*
+Transfer transaction
+
+*Initial State of the System:*
+User authenticated at transaction menu.
+
+*Steps to Reproduce:*
+
+# Select transfer.
+# Select chequing to transfer money from.
+# Select savings to transfer money to.
+# Enter an amount of $20.
+
+*Expected Outcome:*
+ATM receipt should show TRANSFER FROM: CHKG TO: SVGS.
+
+*Actual Outcome:*
+ATM receipt shows TRANSFER FROM: SVGS TO: CHKG.
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:24 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;wrong_transfer.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10007,,,,0|i0003r:,,,,In Progress,06/Feb/26 10:16 PM
+[BR-5] Incorrect transfer amount,CCS-13,10086,Bug,Done,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,Done,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:08 PM,06/Feb/26 9:49 PM,06/Feb/26 8:23 PM,06/Feb/26 9:41 PM,,0,"*Bug Report BR-5:*
+*Title:*
+Incorrect transfer amount
+
+*Function Being Tested:*
+Transfer transaction
+
+*Initial State of the System:*
+User authenticated at transaction menu.
+
+*Steps to Reproduce:*
+
+# Select transfer.
+# Select chequing to transfer money from.
+# Select savings to transfer money to.
+# Enter an amount of $20.
+
+*Expected Outcome:*
+Receipt amount should be $20.
+
+*Actual Outcome:*
+Receipt amount is $19.50.
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:24 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;wrong_transfer.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10006,,,,0|i0003j:,,,,Done,06/Feb/26 9:41 PM
+[BR-4] Deposit amount not correctly registered in the corresponding account,CCS-12,10085,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:08 PM,06/Feb/26 9:19 PM,06/Feb/26 8:21 PM,,,0,"*Bug Report BR-4:*
+*Title:*
+Deposit amount not correctly registered in account
+
+*Function Being Tested:*
+Deposit
+
+*Initial State of the System:*
+ATM is powered on and at the main transaction menu. $40 in the chequing account.
+
+*Steps to Reproduce:*
+
+# Select Deposit.
+# Choose account.
+# Enter $20.
+# Insert envelope.
+
+*Expected Outcome:*
+Chequing should increase by $20 to $60 total.
+
+*Actual Outcome:*
+Chequing account increases by $10 to $50.
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:22 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;deposit.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10005,,,,0|i0003b:,,,,In Progress,06/Feb/26 9:19 PM
+[BR-3] Incorrect card information in the transaction receipt,CCS-11,10084,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:07 PM,06/Feb/26 9:18 PM,06/Feb/26 8:19 PM,,,0,"*Bug Report BR-3:*
+*Title:*
+Incorrect information
+
+*Function Being Tested:*
+Transaction receipt
+
+*Initial State of the System:*
+Processed transaction menu.
+
+*Steps to Reproduce:*
+
+# ATM powered on.
+# Enter the credit card number 1.
+# Enter the correct PIN, 42.
+# Click transaction to withdraw.
+# Enter the amount.
+
+*Expected Outcome:*
+Receipt should read CARD #1.
+
+*Actual Outcome:*
+Receipt reads CARD #2.
+
+*Severity / Priority:*
+Medium
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 8:21 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;wrong_card.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10004,,,,0|i00033:,,,,In Progress,06/Feb/26 9:18 PM
+[BR-2] Typo in cancel message,CCS-10,10083,Bug,In Progress,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 8:06 PM,06/Feb/26 9:18 PM,06/Feb/26 8:14 PM,,,0,"*Bug Report BR-2:*
+*Title:*
+Typo in cancel message
+
+*Function Being Tested:*
+Transaction cancellation
+
+*Initial State of the System:*
+Transaction menu.
+
+*Steps to Reproduce:*
+
+# Select Withdraw.
+# Press cancel.
+
+*Expected Outcome:*
+Message should read “Would you like…”
+
+*Actual Outcome:*
+Message reads “Wood you like…”
+
+*Severity / Priority:*
+Low
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,,,,,0|i0002v:,,,,In Progress,06/Feb/26 9:18 PM
+"[MFT-2] Invalid PIN Extension - Correct re-entry after two incorrect PINs, fails to complete transaction",CCS-9,10082,Bug,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,06/Feb/26 6:33 PM,06/Feb/26 9:40 PM,,,,0,"*Test Case Reference:* TC-40 - Invalid PIN Extension
+
+*Expected Behavior:* When a customer enters an incorrect PIN on the first attempt, then enters the correct PIN on the third attempt, the original transaction (inquiry on checking account) should complete successfully.
+
+*Actual Behavior:*  
+
+----
+
+h3. *Steps to Reproduce*
+
+# Start the ATM system and complete startup sequence
+# Insert a readable customer card (Test Card ID: _40_)
+# When prompted for PIN, enter an *incorrect PIN* (Attempt 1)
+# When prompted for PIN, enter an *incorrect PIN* (Attempt 2)
+# When prompted to re-enter PIN again, enter the *correct PIN* (Attempt 2)
+# Observe system behavior
+
+----
+
+h3. *Expected Result*
+
+* Original transaction (checking account inquiry) completes successfully
+* Correct balance is displayed/printed on receipt
+* Transaction is properly logged (message to bank and approval back)
+
+----
+
+h3. *Actual Result*
+
+* Transaction failed with error: Please enter your PIN Then Press ENTER
+* System displayed: Please enter your PIN Then Press ENTER
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,,,,,,,,,06/Feb/26 6:48 PM;b88477eb-a00b-44fd-91fb-136af06f5193;40.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10003,,,,0|i0002n:,,,,To Do,06/Feb/26 6:33 PM
+[BR-1] Incorrect withdrawal amount,CCS-8,10081,Bug,Done,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,Done,,,Kundai Dziwa,63cac0f5bfdb647eb1daa337,Kundai Dziwa,63cac0f5bfdb647eb1daa337,06/Feb/26 6:11 PM,06/Feb/26 9:17 PM,06/Feb/26 8:24 PM,06/Feb/26 9:17 PM,,0,"h3. *Bug Report BR-1:*
+*Title:*
+Incorrect withdrawal amount
+
+*Function Being Tested:*
+Withdraw
+
+*Initial State of the System:*
+ATM is powered on and at the main menu.
+
+*Steps to Reproduce:*
+
+# Insert valid card, #1.
+# Enter the correct PIN, 42.
+# Press withdraw.
+# Click checking.
+# Press 2.
+
+*Expected Outcome:*
+ATM should withdraw $40.
+
+*Actual Outcome:*
+ATM withdraws $60.
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Kundai Dziwa,63cac0f5bfdb647eb1daa337,,,,,,,,,06/Feb/26 6:16 PM;ug:14b91a44-64f3-49e2-92d0-41e387c5063f;bad_withdrawl.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10000,,,,0|i0002f:,,,,Done,06/Feb/26 9:17 PM
+"[MFT-1] Invalid PIN Extension - Correct re-entry after one incorrect PINs, fails to complete transaction",CCS-7,10048,Bug,To Do,CCS,Bug Tracking,software,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Your first project,Medium,,,,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,06/Feb/26 4:09 PM,06/Feb/26 9:40 PM,06/Feb/26 6:17 PM,,,0,"*Test Case Reference:* TC-39 - Invalid PIN Extension
+
+*Expected Behavior:* When a customer enters an incorrect PIN on the first attempt, then enters the correct PIN on the third attempt, the original transaction (inquiry on checking account) should complete successfully.
+
+*Actual Behavior:*  
+
+----
+
+h3. *Steps to Reproduce*
+
+# Start the ATM system and complete startup sequence
+# Insert a readable customer card (Test Card ID: _39_)
+# When prompted for PIN, enter an *incorrect PIN* (Attempt 1)
+# When prompted to re-enter PIN again, enter the *correct PIN* (Attempt 2)
+# Observe system behavior
+
+----
+
+h3. *Expected Result*
+
+* Original transaction (checking account inquiry) completes successfully
+* Correct balance is displayed/printed on receipt
+* Transaction is properly logged (message to bank and approval back)
+
+----
+
+h3. *Actual Result*
+
+* Transaction failed with error: Please enter your PIN Then Press ENTER
+* System displayed: Please enter your PIN Then Press ENTER
+
+*Severity / Priority:*
+Critical
+
+*Version of SUT:*
+V 1.0",,Behzad Fuladpanjeh,62a7e6f8bf7afc006f3adfa2,,,,,,,,,06/Feb/26 6:47 PM;b88477eb-a00b-44fd-91fb-136af06f5193;39.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10002,06/Feb/26 6:47 PM;b88477eb-a00b-44fd-91fb-136af06f5193;40.png;https://ensf637-assignment1.atlassian.net/rest/api/3/attachment/content/10001,,,0|i00027:,,,,To Do,06/Feb/26 4:09 PM
