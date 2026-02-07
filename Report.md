@@ -16,24 +16,35 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction)
+   - [1.1 System Under Test (SUT)](#11-system-under-test-sut)
+   - [1.2 Testing Environment](#12-testing-environment)
 2. [Test Strategy](#2-test-strategy)
-   - 2.1 [Scope of Testing](#21-scope-of-testing)
-     - 2.1.1 [Features to be Tested](#211-features-to-be-tested)
-     - 2.1.2 [Features Not to be Tested](#212-features-not-to-be-tested)
-   - 2.2 [Test Types](#22-test-types)
-   - 2.3 [Risks and Issues](#23-risks-and-issues)
-   - 2.4 [Test Logistics](#24-test-logistics)
+   - [2.1 Scope of Testing](#21-scope-of-testing)
+     - [2.1.1 Use Cases to be Tested](#211-use-cases-to-be-tested)
+   - [2.2 Test Types](#22-test-types)
+   - [2.3 Risks and Issues](#23-risks-and-issues)
+   - [2.4 Test Logistics](#24-test-logistics)
 3. [Test Objectives](#3-test-objectives)
 4. [Test Criteria](#4-test-criteria)
-   - 4.1 [Suspension Criteria](#41-suspension-criteria)
-   - 4.2 [Exit Criteria](#42-exit-criteria)
+   - [4.1 Suspension Criteria](#41-suspension-criteria)
+   - [4.2 Exit Criteria](#42-exit-criteria)
 5. [Resource Planning](#5-resource-planning)
-   - 5.1 [System Resources](#51-system-resources)
-   - 5.2 [Human Resources](#52-human-resources)
+   - [5.1 System Resources](#51-system-resources)
+   - [5.2 Human Resources](#52-human-resources)
 6. [Test Environment](#6-test-environment)
 7. [Schedule & Estimation](#7-schedule--estimation)
 8. [Test Deliverables](#8-test-deliverables)
 9. [Exploratory Test Results](#9-exploratory-test-results)
+   - [BR-1: Incorrect withdrawal amount](#bug-report-br-1)
+   - [BR-2: Typo in cancel message](#bug-report-br-2)
+   - [BR-3: Incorrect information](#bug-report-br-3)
+   - [BR-4: Deposit amount not correctly registered](#bug-report-br-4)
+   - [BR-5: Incorrect transfer amount](#bug-report-br-5)
+   - [BR-6: Incorrect to and from transfer accounts](#bug-report-br-6)
+   - [BR-7: Money Market balance inquiry](#bug-report-br-7)
+   - [BR-8: System does not give 3 pin attempts](#bug-report-br-8)
+   - [BR-9: ATM won't withdraw with cash available](#bug-report-br-9)
+   - [BR-10: Cannot withdraw from savings account](#bug-report-br-10)
 10. [Test Cases](#10-test-cases)
 11. [Regression Testing](#11-regression-testing)
 12. [Test Summary Report](#12-test-summary-report)
@@ -449,11 +460,13 @@ Testing will be performed on a desktop computer running the ATM simulation softw
 
 ## 13. Comparison of Results
 
-## 14 Exploratory vs Scripted Testing
+### Exploratory vs Scripted Testing
 
+*(Content to be added based on analysis)*
 
+---
 
-## 15. Issue Tracking System
+## 14. Issue Tracking System
 
 During this lab, **Jira** was used as the primary defect tracking tool to record, manage, and review all identified bugs in the ATM System. Jira allowed the team to create structured defect reports containing essential information such as:
 
@@ -464,7 +477,7 @@ During this lab, **Jira** was used as the primary defect tracking tool to record
 - Severity level
 - System version
 
-![Jira Issue Tracking](media/image.png)
+![Jira Issue Tracking](Jira_Bug_Tracking.png)
 
 ---
 
