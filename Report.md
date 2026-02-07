@@ -459,6 +459,7 @@ Testing will be performed on a desktop computer running the ATM simulation softw
 ---
 
 ## 13. Comparison of Results
+Comparing the results from version 1.0 and 1.1, we found that certain exploratory bugs were fixed, however majority of the bugs were not or either in progress. Meaning that a spelling mistake was corrected, however, another spelling mistake was made. Or an incorrect balance was closer to the correct balance but still wrong. With regression testing, we found that when a certain test passed in version 1.0, it failed in version 1.1. This issue can arise when trying to debug the code and not realizing one change can affect another area, suggesting that the code is highly coupled.  
 
 ### Exploratory vs Scripted Testing
 
